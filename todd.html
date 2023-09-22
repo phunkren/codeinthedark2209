@@ -1,53 +1,56 @@
 <html lang="en">
   <head>
     <style>
-        .flex-row {
-            display: flex;
-            flex-direction: row;
-        }
-        .flex-column {
-            display: flex;
-            flex-direction: column;
-        }
-        .title {
-          font-size: 32px;
-        }
-        .description {
-          font-size: 24px;
-        }
-        .body {
-            font-size: 14px;
-        }
-        p {
-            text-align: left;
-        }
-        .button {
-            background-color: blue;
-            border-radius: 500px;
-            padding: 10px;
-            color: white;
-        }
-        </style>
+      .flex-row {
+        display: flex;
+        flex-direction: row;
+      }
+      .flex-column {
+        display: flex;
+        flex-direction: column;
+      }
+      .title {
+        font-size: 32px;
+      }
+      .description {
+        font-size: 24px;
+      }
+      .body {
+        font-size: 14px;
+      }
+      p {
+        text-align: left;
+      }
+      .button {
+        background-color: blue;
+        border-radius: 500px;
+        padding: 10px;
+        color: white;
+      }
+    </style>
   </head>
 
   <body>
     <div class="flex-row" style="height: 1000px">
-        <img src='mobile.png' width='auto' height='100%' />
-        <div class="flex-column">
-            <p class="title">
-                The future of money is here
-            </p>
-            <p class="description">
-                We're the most trusted place for people and businesses to buy, sell and manage crypto.
-            </p>
-            <div class="flex-row" style="margin-top: 150px;">
-                <input type="text" placeholder="satoshi@nakamoto.com" style="margin-right: 20px;">
-                <button class="button"> Sign up</button>
-            </div>
-            <p class="body" style="margin-right: 20px;">
-                Sign up and get up to $200 in crypto
-            </p>
+      <img src="assets/mobile.png" width="auto" height="100%" />
+      <div class="flex-column">
+        <p class="title">The future of money is here</p>
+        <p class="description">
+          We're the most trusted place for people and businesses to buy, sell
+          and manage crypto.
+        </p>
+        <div class="flex-row" style="margin-top: 150px">
+          <input
+            type="text"
+            placeholder="satoshi@nakamoto.com"
+            style="margin-right: 20px"
+          />
+          <button class="button">Sign up</button>
         </div>
+        <p class="body" style="margin-right: 20px">
+          Sign up and get up to $200 in crypto
+        </p>
+      </div>
     </div>
   </body>
 </html>
