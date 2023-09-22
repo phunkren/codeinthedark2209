@@ -1,0 +1,80 @@
+<html lang="en">
+  <head>
+    <style>
+      body {
+        height: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        font: San Francisco;
+        background: white;
+        color: black;
+        padding: 20px;
+      }
+      
+      .section {
+          flex: 1;
+          padding: 10px;
+      }
+      
+      h1 {
+        font-size: 50px;
+      }
+      
+      .subtitle {
+        font-size: 20px; 
+      }
+      
+      .form-wrapper {
+          margin-top: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+      
+      .footer {
+          font-size: 14px;
+          margin-top: 10px;
+      }
+      
+      .reference {
+          font-size: 7px;
+      }
+      
+      .email {
+          border: 1px solid gray;
+          border-radius: 10px;
+          padding: 6px;
+      }
+      
+      .submit {
+          background-color:rebeccapurple;
+          color: white;
+          padding: 6px 8px;
+          margin-left: 4px;
+      }
+      
+      .hero-image {
+          width: 45vw !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="section">
+        <img src='mobile.png' class="hero-image" width='1180px' height='1195px' />
+    </div>
+    <div class="section">
+        <h1 class='title'>The future of money is here</h1>
+        <p class="subtitle">We're the most trusted place for people and businesses to buy, sell, and manage crypto.</p>
+        
+        <div class="form-wrapper">
+            <input type="text" class="email" placeholder="satoshi@nakamoto.com" />
+            <input type="submit" class="submit" value="Sign up" />
+        </div>
+        
+        <span class"footer">Sign up and get up to $200 in crypto<span class="reference">1</span></span>
+        
+    </div>
+  </body>
+</html>
